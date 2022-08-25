@@ -22,8 +22,9 @@ title: Maurits van der Goes
 email: hi@mauritsvandergoes.nl
 description: >- # this means to ignore newlines until "baseurl:"
   I'm a Data Engineer with 5+ years experience, specializing in the Machine Learning life cycle (MLOps). Working with e.g. Airflow, AWS, Azure, Databricks, Docker, Kubernetes, Neo4j, Python, Scala and Spark.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.mauritsvandergoes.nl" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /vandergoes.github.io/ # the subpath of your site, e.g. /blog
+url: https://vandergoes.github.io # the base hostname & protocol for your site, e.g. http://example.com
+domain: vandergoes.github.io
 twitter_username: vanderGoes
 github_username:  vanderGoes
 
@@ -31,6 +32,18 @@ github_username:  vanderGoes
 theme: minima
 plugins:
   - jekyll-feed
+
+lsi: false
+safe: true
+source: /
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
